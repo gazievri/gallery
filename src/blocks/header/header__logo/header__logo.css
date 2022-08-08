@@ -1,0 +1,9 @@
+.header__logo {
+  background-image: url(../../../images/logo.svg);
+  background-color: transparent;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 66px;
+  height: 66px;
+}

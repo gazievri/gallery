@@ -1,0 +1,12 @@
+.header__theme-switcher {
+  background-image: url(../../../images/theme-switcher.svg);
+  background-color: transparent;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  margin-left: auto;
+  
+}
+

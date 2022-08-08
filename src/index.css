@@ -1,3 +1,15 @@
+@import url(./vendor/normalize.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/header__logo/header__logo.css);
+@import url(./blocks/header/header__theme-switcher/header__theme-switcher.css);
+@import url(./blocks/filters/filters.css);
+@import url(./blocks/filters/filters__filter/filters__filter.css);
+@import url(./blocks/pictures/pictures.css);
+@import url(./blocks/pictures/pictures__picture/pictures__picture.css);
+@import url(./blocks/pictures/pictures__picture-image/pictures__picture-image.css);
+@import url(./blocks/pictures/pictures__pictures-title-block/pictures__pictures-title-block.css);
+@import url(./blocks/pictures/pictures__picture-title/pictures__picture-title.css);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +17,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
