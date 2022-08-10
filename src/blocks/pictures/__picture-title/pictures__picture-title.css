@@ -8,9 +8,9 @@
   color: #000000;
   margin: 0;
   text-align: left;
-  margin: 0 15px;
+  margin: 5px 15px 0;
   text-overflow: ellipsis;
-  max-width: 500px;
+  max-width: 360px;
   overflow: hidden;
   white-space: nowrap;
 }

@@ -1,0 +1,21 @@
+.filters__filter {
+  background: #0C0C0C;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  width: 280px;
+  height: 45px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+@media (min-width: 760px) {
+  .filters__filter {
+    min-width: 160px;
+  }
+}

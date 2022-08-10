@@ -1,8 +1,9 @@
-const Header = () => {
+const Header = ({ isDayOn, handleClick }) => {
+
     return(
         <div className="header">
             <div className="header__logo"></div>
-            <div className="header__theme-switcher"></div> 
+            <div className="header__theme-switcher" onClick={handleClick}></div>
         </div>
     )
 }

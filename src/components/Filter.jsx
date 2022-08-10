@@ -1,7 +1,5 @@
-const Filter = () => {
-  return(
-    <div className="filters__filter">Test</div>
-  )
-}
+const Filter = ({type}) => {
+  return <input name={type} className="filters__filter" placeholder={type} />;
+};
 
 export default Filter;

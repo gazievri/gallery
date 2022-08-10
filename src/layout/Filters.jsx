@@ -1,14 +1,15 @@
-import Filter from '../components/Filter';
+import Filter from "../components/Filter";
+import FilterByName from "../components/FilterByName";
 
-const Filters = () => {
-  return(
+const Filters = ({ handleSearchByName  }) => {
+  return (
     <div className="filters">
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
+      <FilterByName type="Name" handleSearchByName={handleSearchByName} />
+      <Filter type="Author" />
+      <Filter type="Created" />
+      <Filter type="Location" />
     </div>
-  )
-}
+  );
+};
 
 export default Filters;

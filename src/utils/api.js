@@ -1,7 +1,21 @@
 import { BASE_URL } from "./config";
 
-const getPaintings = () => {
-  return fetch(`${BASE_URL}/paintings`, {
+const getPaintings = (key = '') => {
+  return fetch(`${BASE_URL}/paintings?_limit=12${key}`, {
+    method: 'GET',
+})
+  .then(checkResponse);
+}
+
+const getAuthors = () => {
+  return fetch(`${BASE_URL}/authors`, {
+    method: 'GET',
+})
+  .then(checkResponse);
+}
+
+const getLocations = () => {
+  return fetch(`${BASE_URL}/locations`, {
     method: 'GET',
 })
   .then(checkResponse);
@@ -14,4 +28,4 @@ const checkResponse = (res) => {
   return Promise.reject(`Error: ${res.status}`);
 }
 
-export {getPaintings};
+export { getPaintings, getAuthors, getLocations };

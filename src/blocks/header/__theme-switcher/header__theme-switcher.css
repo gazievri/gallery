@@ -1,12 +1,15 @@
 .header__theme-switcher {
   background-image: url(../../../images/theme-switcher.svg);
   background-color: transparent;
-  color: white;
   background-repeat: no-repeat;
   background-position: center;
   width: 22px;
   height: 22px;
   margin-left: auto;
-  
+  transition: 0.3s;
 }
 
+.header__theme-switcher:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

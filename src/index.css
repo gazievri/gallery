@@ -1,14 +1,16 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/header__logo/header__logo.css);
-@import url(./blocks/header/header__theme-switcher/header__theme-switcher.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__theme-switcher/header__theme-switcher.css);
+@import url(./blocks/header/_day-theme_active/header_day-theme_active.css);
 @import url(./blocks/filters/filters.css);
-@import url(./blocks/filters/filters__filter/filters__filter.css);
+@import url(./blocks/filters/__filter/filters__filter.css);
 @import url(./blocks/pictures/pictures.css);
-@import url(./blocks/pictures/pictures__picture/pictures__picture.css);
-@import url(./blocks/pictures/pictures__picture-image/pictures__picture-image.css);
-@import url(./blocks/pictures/pictures__pictures-title-block/pictures__pictures-title-block.css);
-@import url(./blocks/pictures/pictures__picture-title/pictures__picture-title.css);
+@import url(./blocks/pictures/__picture/pictures__picture.css);
+@import url(./blocks/pictures/__picture-image/pictures__picture-image.css);
+@import url(./blocks/pictures/__pictures-title-block/pictures__pictures-title-block.css);
+@import url(./blocks/pictures/__picture-title/pictures__picture-title.css);
+@import url(./blocks/pictures/__picture-subtitle/pictures__picture-subtitle.css);
 
 body {
   margin: 0;
@@ -17,7 +19,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   background-color: black;
+  min-width: 320px;
+  justify-content: center;
 }
 
 code {

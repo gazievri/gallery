@@ -1,7 +1,6 @@
 .pictures__picture {
   border: 2.5px solid;
-  width: 280px;
-  height: 205px;
+  height: 100%;
   border-radius: 20px;
   background-color: transparent;
   margin: 0;
@@ -9,4 +8,5 @@
   display: flex;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }

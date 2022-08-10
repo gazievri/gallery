@@ -5,3 +5,25 @@
   align-items: center;
   row-gap: 15px;
 }
+
+@media (min-width: 760px) {
+  .filters {
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto 0;
+  }
+}
+
+@media (min-width: 1020px) {
+  .filters {
+    max-width: 940px
+  }
+}
+
+@media (min-width: 1360px) {
+  .filters {
+    max-width: 1120px
+  }
+}

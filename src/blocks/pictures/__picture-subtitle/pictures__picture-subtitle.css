@@ -1,0 +1,10 @@
+.pictures__picture-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  margin: 6px 0 0 15px;
+  padding: 0;
+}
